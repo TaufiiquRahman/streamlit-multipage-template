@@ -5,17 +5,17 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Web App URL: <https://geotemplate.streamlit.app>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
+Web App URL: <https://capstoneproject37.streamlit.app/>
+GitHub Repository: <https://github.com/TaufiiquRahman/CapstoneProject37>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "https://i.imgur.com/JFyI8Fl.jpeg"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Streamlit for Quality Control Casting Product")
 
 st.markdown(
     """
