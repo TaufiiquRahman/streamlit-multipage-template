@@ -1,5 +1,10 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
+from keras.models import load_model
+from PIL import Image
+import numpy as np
+from util import classify, set_background
+
 
 st.set_page_config(layout="wide")
 
@@ -23,7 +28,9 @@ st.markdown(
     """
 )
 
-st.header("Instructions")
+st.header('Please upload a Casting Product Image')
+
+file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 markdown = """
 1. For the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
