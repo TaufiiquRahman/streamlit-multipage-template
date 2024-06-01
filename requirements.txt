@@ -6,4 +6,8 @@ leafmap
 nbserverproxy
 owslib
 streamlit
+numpy
+Pillow
+keras
+tensorflow
 
