@@ -29,6 +29,8 @@ st.header('Please upload a Casting Product Image')
 
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
+model = load_model('./modelcast.h5')
+
 
 
 markdown = """
