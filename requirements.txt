@@ -4,8 +4,8 @@ jupyter-server-proxy
 leafmap
 nbserverproxy
 owslib
-streamlit
 numpy
+streamlit
 Pillow
 keras
 tensorflow
