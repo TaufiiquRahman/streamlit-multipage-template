@@ -25,9 +25,11 @@ st.markdown(
 
 st.header("Instructions")
 
+st.header('Please upload a Casting Product Image')
+
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
-st.header('Please upload a Casting Product Image')
+
 
 markdown = """
 1. For the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
