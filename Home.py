@@ -5,8 +5,8 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Web App URL: <https://capstoneproject37.streamlit.app/>
-GitHub Repository: <https://github.com/TaufiiquRahman/CapstoneProject37>
+Web App URL: <https://testing37.streamlit.app/>
+GitHub Repository: <https://github.com/TaufiiquRahman/streamlit-multipage-template>
 """
 
 st.sidebar.title("About")
